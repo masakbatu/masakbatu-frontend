@@ -1,3 +1,6 @@
+// nodejs version v22.13.1
+
+
 // Fungsi untuk mengecek apakah pengguna sudah login
 const checkAuth = () => {
   const token = localStorage.getItem("token");
