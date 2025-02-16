@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard!</p>
+    <a href="profile.html">View Profile</a>
+    <a href="quotes.html">View Quotes</a>
+    <button id="logoutButton">Logout</button>
+
+    <!-- Form untuk menambahkan quotes -->
+    <h2>Add a Quote</h2>
+    <form id="addQuoteForm">
+      <textarea id="quote" placeholder="Enter your quote" required></textarea>
+      <button type="submit">Add Quote</button>
+    </form>
+
+    <!-- Modal untuk pesan sukses -->
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+        <span id="closeSuccessModal">&times;</span>
+        <p id="successMessage"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
